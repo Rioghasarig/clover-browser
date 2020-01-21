@@ -69,7 +69,6 @@ $(function() {
     if (data.prefixes !== undefined) {
       for (i = 0; i < data.prefixes.length; i++) {
 		prefix = data.prefixes[i];
-		
 		results.push({'data': display_name(prefix),
 					  'attr': {'gcs_id': prefix},
 					  'state': 'closed'});
